@@ -30,10 +30,13 @@ Docker containers are different from virtual machines (VMs) in several ways:
 Docker provides several commands to manage containers, such as `docker run` to start a new container, `docker stop` to stop a running container, and `docker ps` to list all running containers.
 
 # Tasks to solve
-- Create a Dockerfile for a simple web application and build an image from it.
-- Use the `docker run` command to start a new container from the image and expose the web application on a specific port.
-- Use the `docker exec` command to open a shell inside a running container.
-- Use the `docker logs` command to view the output of a running container.
-- Use `docker-compose` to define and run a multi-container application.
+- Use the `docker pull` command to download an image from a public repository such as Docker Hub.
+- Use the `docker ps` command to list all running containers on the host.
+- Use the `docker stop` command to stop a running container.
+- Use the `docker rm` command to remove a stopped container
+- Use the `docker images` command to list all images on the host.
+- Use `docker login` and `docker logout` command to authenticate and logout from a Docker registry
+
+These tasks involve basic and common operations that can be used to manage images and containers. They will help you to get familiar with the Docker command-line interface and understand how to run and manage simple containerized applications.
 
 You can Post on LinkedIn and let us know what you have learned from this task by #90DaysOfDevOps Challange. Happy Learning :)
